@@ -8,3 +8,8 @@ beautifulsoup4
 googlemaps
 folium
 jupyter
+plotly
+streamlit
+folium
+streamlit-folium
+geopy
