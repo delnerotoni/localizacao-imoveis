@@ -8,22 +8,22 @@ Dashboard interativo para explorar imóveis em São Paulo com dados públicos da
 
 ## 🚀 Tecnologias Utilizadas
 
-- 🕷️ **Web Scraping** com Selenium  
-- 📊 **Streamlit** para interface interativa  
-- 📈 **Plotly** para gráficos dinâmicos  
-- 📍 **Folium + Geopy** *(em breve)* para mapa interativo  
+- 🕷️ Web Scraping com Selenium
+- 📊 Streamlit para interface interativa
+- 📈 Plotly para gráficos dinâmicos
+- 📍 Folium + Geopy para mapa interativo
+- 🧠 Pandas + Regex para extração de dados estruturados
 
 ---
 
 ## ✨ Funcionalidades
 
-- 🔎 Filtro por número de quartos e área mínima  
-- 🏷️ Filtro por tipo de imóvel (casa, apartamento, comercial)  
-- 📋 Tabela com detalhes e links diretos  
-- 📈 Gráficos de distribuição e dispersão  
-- 📁 Exportação dos imóveis filtrados em CSV  
-- 🗺️ *(Futuro)* Mapa interativo com localização dos imóveis  
-
+- 🔎 Filtros interativos por número de quartos, área mínima, bairro e faixa de preço
+- 📋 Tabela com detalhes e links diretos para os anúncios
+- 📈 Gráficos de distribuição de área e dispersão entre área × quartos
+- 📍 Mapa interativo com localização aproximada por bairro
+- 📁 Exportação dos imóveis filtrados em CSV
+- 📊 KPIs com contagem de imóveis, área média e preço médio
 ---
 
 ## 📂 Estrutura do Projeto
@@ -39,8 +39,8 @@ Dashboard interativo para explorar imóveis em São Paulo com dados públicos da
 - 📁 `notebooks/` → Análises exploratórias  
   └── 📓 `exploracao.ipynb`
 
-- 📁 `img/` → Imagens do projeto  
-  └── 🖼️ `estrutura.png`
+- 📁 `img/` → vizualização do dash: demo.mp4 
+  
 
 - 📄 `requirements.txt` → Dependências do projeto  
 - 📄 `README.md` → Documentação
@@ -49,10 +49,11 @@ Dashboard interativo para explorar imóveis em São Paulo com dados públicos da
 
 ## 🛠️ Futuras Implementações
 
-- 📍 Mapa interativo com **Folium**  
-- 🌐 Geolocalização com **Geopy**  
-- 📱 Versão mobile responsiva  
-- 🧠 Modelos preditivos de preço  
+🔄 Botão para atualizar os dados via coleta.py direto do app
+🏷️ Filtro por tipo de imóvel (casa, apartamento, comercial)
+📱 Versão mobile responsiva
+🧠 Modelos preditivos de preço
+🌐 Deploy online com Streamlit Cloud
 
 ---
 
