@@ -13,3 +13,4 @@ streamlit
 folium
 streamlit-folium
 geopy
+xlsxwriter
