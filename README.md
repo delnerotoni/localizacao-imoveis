@@ -4,6 +4,10 @@
 
 Dashboard interativo para explorar imóveis em São Paulo com dados públicos da plataforma VivaReal. Desenvolvido com técnicas de **web scraping**, visualização com **Streamlit**, e preparado para expansão com **Folium** e **Geopy** para geolocalização.
 
+## 🌐 Acesse o App Online
+
+🔗 [Abrir o dashboard no Streamlit Cloud](https://share.streamlit.io/delnerotoni/localizacao-imoveis/src/app.py)
+
 ---
 
 ## 🚀 Tecnologias Utilizadas
@@ -71,8 +75,11 @@ GitHub: [@delnerotoni](https://github.com/delnerotoni)
 
 ---
 
-## ▶️ Como Rodar
+## ▶️ Como Rodar Localmente
 
 ```bash
+git clone https://github.com/delnerotoni/localizacao-imoveis.git
+cd localizacao-imoveis
 pip install -r requirements.txt
 streamlit run src/app.py
+```
