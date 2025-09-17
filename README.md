@@ -6,7 +6,7 @@ Dashboard interativo para explorar imóveis em São Paulo com dados públicos da
 
 ## 🌐 Acesse o App Online
 
-🔗 [Abrir o dashboard no Streamlit Cloud](https://share.streamlit.io/delnerotoni/localizacao-imoveis/src/app.py)
+🔗 [Abrir o dashboard no Streamlit Cloud](https://localizacao-imoveis-fxhfx7mviphyeppxfoc7by.streamlit.app)
 
 ---
 
